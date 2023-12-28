@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="home">HOME</string>
+    <string name="calcconverter_pro">CalcConverter Pro</string>
+    <string name="choose_your_option">Choose Your Option</string>
+    <string name="choose_your_options">Choose Your Options</string>
+    <string name="calculator">Calculator</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="source_code_on_github">Source Code on Github:</string>
+</resources>
