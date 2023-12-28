@@ -8,4 +8,5 @@
     <string name="unit_converter">Unit Converter</string>
     <string name="version_1_0">Version 1.0</string>
     <string name="source_code_on_github">Source Code on Github:</string>
+    <string name="calcconverter">CalcConverter</string>
 </resources>
