@@ -9,10 +9,24 @@ import android.widget.Toast;
 
 public class HelpActivity extends AppCompatActivity {
 
+     Button github_btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
+
+
+        github_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://github.com/shubGupta10/CalcConverter/tree/master";
+
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
     }
 
 
